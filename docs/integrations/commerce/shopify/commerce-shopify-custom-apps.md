@@ -40,6 +40,7 @@ The UI includes a **Find your Shopify credentials** section that guides the merc
      read_customers, read_inventory, read_orders, read_products,
      read_shopify_payments_payouts, read_shopify_payments_disputes
      ```
+     **Note**: By default, `read_orders` retrieves orders up to 60 days prior to the linking date. To access historical orders older than 60 days, the merchant must also enable the `read_all_orders` scope in the Access section. 
    - Click **Release**
    - (Optional) Enter a version name and a version message
    - Click **Release**
